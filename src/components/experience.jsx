@@ -17,7 +17,7 @@ export default function Experience() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* CARD START */}
-          <div className="bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-100">
+          <div className="bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-100 transition-all duration-300 hover:shadow-2xl hover:-translate-y-3 cursor-pointer">
             {/* IMAGE SECTION */}
             <div className="relative">
               <img
@@ -64,7 +64,7 @@ export default function Experience() {
           {/* CARD END */}
 
           {/* CARD START */}
-          <div className="bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-100">
+          <div className="bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-100 hover:shadow-2xl hover:-translate-y-3 cursor-pointer">
             {/* IMAGE SECTION */}
             <div className="relative">
               <img
@@ -111,7 +111,7 @@ export default function Experience() {
           {/* CARD END */}
 
           {/* CARD START */}
-          <div className="bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-100">
+          <div className="bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-100 hover:shadow-2xl hover:-translate-y-3 cursor-pointer">
             {/* IMAGE SECTION */}
             <div className="relative">
               <img
